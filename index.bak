@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our first React page</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+</head>
+<body>
+    <div id = "content"></div>
+
+    <script type="text/babel" src="/src/employees.jsx">
+
+        // const element = (
+        //     <ul style={{'color':'blue', 'fontSize': '24px'}}>
+        //         <li> Zak  </li>  
+        //         <li> Sally  </li>  
+        //         <li> Holly  </li>  
+        //     </ul>
+
+        // )
+
+        // ReactDOM.render(element, document.getElementById('content'))
+
+        // const element = React.createElement(
+        //     'ul',
+        //     {style: {'color': 'blue', 'fontSize': '24px'}},
+        //     React.createElement('li', null, 'Zak'),
+        //     React.createElement('li', null, 'Ally'),
+        //     React.createElement('li', null, 'Holly'),
+        //     )
+        // ReactDOM.render(element,document.getElementById('content'))
+
+
+        // const element = React.createElement(
+        //     'div',
+        //     {title: 'Outer div'},
+        //     React.createElement('h1',null,'Hello World!')
+        // )
+        // ReactDOM.render(element,document.getElementById('content'))
+
+
+    //     ReactDOM.render(
+    //         React.createElement(
+    //             'div',
+    //             {title: 'Outer div'},
+    //             'Hello World!'
+    //         ),
+    //         document.getElementById('content')
+    // )
+    </script>
+    
+</body>
+</html>
